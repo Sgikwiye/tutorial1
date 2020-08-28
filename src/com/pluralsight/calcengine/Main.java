@@ -33,7 +33,13 @@ public class Main {
         equation3.setRightVal(34);
         equation3.setIdentifier(2);
 
-        List<MathEquation> mathEquations = Arrays.asList(equation1, equation2,equation3);
+        MathEquation equation4 = new MathEquation();
+        equation4.setLeftVal(20.4);
+        equation4.setOpCode('m');
+        equation4.setRightVal(34);
+        equation4.setIdentifier(2);
+
+        List<MathEquation> mathEquations = Arrays.asList(equation1, equation2,equation3,equation4);
         List<TResult> execute = execute(mathEquations);
 
     }
