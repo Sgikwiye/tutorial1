@@ -41,6 +41,14 @@ public class Main {
 
         List<MathEquation> mathEquations = Arrays.asList(equation1, equation2,equation3,equation4);
         List<TResult> execute = execute(mathEquations);
+        //System.out.println(mathEquations.toString());
+
+        for (TResult execution: execute)
+        {
+            System.out.println(execution.getResult());
+
+        }
+
 
     }
 
